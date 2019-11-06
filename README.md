@@ -19,7 +19,7 @@ I wrote this on a Raspberry Pi 3b+.  For Windows or Mac you will need to make sm
 - python-virtualenv  
 - Tkinter  
 ### Files to install
-- only one python file to get ¯\_(ツ)_/¯ 
+- only one python file to get ¯\\_(ツ)_/¯ 
 ### Other Hardware  
 - a USB connected Ocean Optics spectrometer  
 - a light source if you are going to do absorbance experiments
