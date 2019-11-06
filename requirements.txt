@@ -1,0 +1,7 @@
+numpy
+python-flask
+python-matplotlib
+python-seabreeze
+python-virtualenv
+SeaBreeze  (https://sourceforge.net/projects/seabreeze/)
+Tkinter
