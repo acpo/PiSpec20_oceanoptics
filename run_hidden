@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/projectdirectory
+screen -dm python OO_spec.py
+exit
