@@ -23,6 +23,36 @@ I wrote this on a Raspberry Pi 3b+.  For Windows or Mac you will need to make sm
 ### Other Hardware  
 - a USB connected Ocean Optics spectrometer  
 - a light source if you are going to do absorbance experiments
+## Supported Devices  
+### Directly tested  
+| Manufacturer  | Spectrometer  | Works ?       |  
+| ------------- | ------------- | ------------- |  
+| Ocean Insight | HR 4000       |     yes       |  
+| Ocean Insight | HR 2000 plus  |     yes       |  
+| Ocean Insight | USB 2000      |     yes       | 
+
+### Should work with SeaBreeze (Ocean Insight products)  
+| Spectrometer | cseabreeze | pyseabreeze|  
+| ------------ | :--------: | :--------: |  
+|HR2000 |x | x |
+|HR2000PLUS |x | x |
+|HR4000 |x | x |
+|JAZ |x | x |
+|MAYA2000 |x | x |
+|MAYA2000PRO |x | x |
+|MAYALSL |x | x |
+|NIRQUEST256 |x | x |
+|NIRQUEST512 |x | x |
+|QE65000 |x | x |
+|QE-PRO |x | x |
+|STS |x | x |
+|TORUS |x | x |
+|USB2000 |x | x |
+|USB2000PLUS |x | x |
+|USB4000 |x | x |
+|USB650 | no | no |
+|SPARK |x | x |  
+
 ## How to Help  
 I don't write in Python for a living, nor particularly do a lot of programming.  And it shows in the code.  This is 
 also a work in progress.  
