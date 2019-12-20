@@ -9,7 +9,11 @@ The project was written to support undergraduate laboratories, so really this re
 to run their spectrometer.  However, the functionality of the project can readily be expanded to take advantage of the 
 spectrometer features.  This code takes care of collecting the spectra, everything else is just manipulations in code.  Simple changes in the code shift the interface from having lots of things chosen for you to needing to make lots of choices.
 ## PiSpec20 Requirements  
-I wrote this on a Raspberry Pi 3b+.  For Windows or Mac you will need to make small changes to the code to deal with OS peculiarities.  You will need to possess an Ocean Optics spectrometer
+I wrote this on a Raspberry Pi 3b+.  For Windows or Mac you will need to make small changes to the code to deal with OS peculiarities.  You will need to possess an Ocean Optics spectrometer.  
+*Extra Windows requirement:  
+[Visual C++ Build Tools] (https://visualstudio.microsoft.com/visual-cpp-build-tools/) is required before installing Python-Seabreeze    
+See the documentation at the [python-seabreeze documents] (https://python-seabreeze.readthedocs.io/en/latest/install.html#operating-system-dependent-setup)  
+
 ### Libraries  
 - SeaBreeze  (https://sourceforge.net/projects/seabreeze/  depending on OS, you may need to build from source)
 - Python-Seabreeze  (https://github.com/ap--/python-seabreeze  or the Conda forge)
