@@ -1,3 +1,6 @@
+# This branch is an archive for Python 2.x and pre-Python 3.9  
+This is the original code as published in the [Journal of Chemical Education, 2020](https://pubs.acs.org/doi/full/10.1021/acs.jchemed.9b01023) and is archived here so that older versions of Python and (tangentially Raspbian) have the source available.  This archive will not be updated further.  
+
 # PiSpec20_OceanOptics
 A Python interface for Ocean Optics spectrometers designed to proved the functions of a Spectronic 20 spectrophotometer
 ## Project Goals and Motivations  
