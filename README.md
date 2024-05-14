@@ -14,15 +14,16 @@ For Windows or Mac you will need to make small changes to the code to deal with 
 *extra Windows requirement:  
 [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) is required before installing Python-Seabreeze    
 See the documentation at the [python-seabreeze documents](https://python-seabreeze.readthedocs.io/en/latest/install.html#operating-system-dependent-setup)*  
+Installation is fairly simple:  I was able to install Seabreeze, numpy, matplotlib, and directly run the included .py file.  
 
 ### Libraries  
-- SeaBreeze  (https://sourceforge.net/projects/seabreeze/  depending on OS, you may need to build from source)
 - Python-Seabreeze  (https://github.com/ap--/python-seabreeze  or the Conda forge)
 - numpy  
-- python-matplotlib  
-- python-flask  
-- python-virtualenv  
-- Tkinter  
+- matplotlib
+- Tkinter (usually automatically in Python)
+#### Optional libraries
+- SeaBreeze  (https://sourceforge.net/projects/seabreeze/  if you want to play with the backend)
+- python-virtualenv  -- if you want to use *venv*  
 ### Files to install
 - only one python file to get ¯\\_(ツ)_/¯ 
 ### Other Hardware  
@@ -59,8 +60,7 @@ See the documentation at the [python-seabreeze documents](https://python-seabree
 |SPARK |x | x |  
 
 ## How to Help  
-I don't write in Python for a living, nor particularly do a lot of programming.  And it shows in the code.  This is 
-also a work in progress.  
+I don't write in Python for a living, nor particularly do a lot of programming.  But the project works.   The code could probably be more efficient but free software is free.  
 If you wish to contribute please contact me.
 ## License  
 MIT License.  This project relies on Python-Seabreeze which uses the MIT License.
