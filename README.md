@@ -20,6 +20,7 @@ Installation is fairly simple:  I was able to install Seabreeze, numpy, matplotl
 - Python-Seabreeze  (https://github.com/ap--/python-seabreeze  or the Conda forge)
 - numpy  
 - matplotlib
+- (*May 2024*) may need to also get `sudo apt-get install python3-pil.imagetk` to address an import error from matplotlib  
 - Tkinter (usually automatically in Python)
 #### Optional libraries
 - SeaBreeze  (https://sourceforge.net/projects/seabreeze/  if you want to play with the backend)
