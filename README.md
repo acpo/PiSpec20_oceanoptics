@@ -17,14 +17,15 @@ See the documentation at the [python-seabreeze documents](https://python-seabree
 Installation is fairly simple:  I was able to install Seabreeze, numpy, matplotlib, and directly run the included .py file.  
 
 ### Libraries  
-- Python-Seabreeze  (https://github.com/ap--/python-seabreeze  or the Conda forge)
-- numpy  
-- matplotlib
+- `pip3 install seabreeze`  (https://github.com/ap--/python-seabreeze  or the Conda forge)
+- run the seabreeze setup script `seabreeze_os_setup` to add the udev rules
+- `pip3 install numpy`
+- `pip3 install matplotlib`
 - (*May 2024*) may need to also get `sudo apt-get install python3-pil.imagetk` to address an import error from matplotlib  
 - Tkinter (usually automatically in Python)
 #### Optional libraries
 - SeaBreeze  (https://sourceforge.net/projects/seabreeze/  if you want to play with the backend)
-- python-virtualenv  -- if you want to use *venv*  
+- python-virtualenv  -- if you want to use *venv*  (required for some newer Linux)
 ### Files to install
 - only one python file to get ¯\\_(ツ)_/¯ 
 ### Other Hardware  
