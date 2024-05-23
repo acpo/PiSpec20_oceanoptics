@@ -7,7 +7,7 @@ to make an effectively disposable computer.  I picked Python 3.x (the older bran
 ## Project Audience  
 The project was written to support undergraduate laboratories, so really this repository is for people looking for a frontend 
 to run their spectrometer.  However, the functionality of the project can readily be expanded to take advantage of the 
-spectrometer features.  This code takes care of collecting the spectra, everything else is just manipulations in code.  Simple changes in the code shift the interface from having lots of things chosen for you to needing to make lots of choices.
+spectrometer features.  This code takes care of collecting the spectra, everything else is just manipulations in code.  Simple changes in the code shift the interface from having lots of things chosen for you to needing to make lots of choices.   For example, there is a 'Save Button' commented out in the code. If you uncomment the 3 lines of the GUI for the button, the Save function is fully implemented.  
 ## PiSpec20 Requirements  
 I wrote this on a Raspberry Pi 3b+.  The current version was updated on Python 3.9 and 3.11.  Raspbian OS *Bullseye* was used for testing.  The newer (in 2024) *Bookworm* OS also works but is slow on a 3b+.  
 For Windows or Mac you will need to make small changes to the code to deal with OS peculiarities.  You will need to possess an Ocean Optics spectrometer.  
